@@ -1,25 +1,49 @@
 <html>
-        <head>
-            <link rel="stylesheet" type="text/css" href="./style.css">
-        </head>
+    <head>
+    <style>
+        body {
+            margin: 0; 
+        }
+        header,footer {
+            background-color: gray;
+            color: white;
+            overflow: hidden;  
+            width: 100%;
+        }
+        div#content {
+            margin: 10px;
+        }
+        section.col {
+            width: 50%;
+            float: left;
+        }
+        nav {
+            width: 100%;
+        }
+    </style>
+    </head>
         <body>
             <header>
               This is a placeholder header.
             </header>
             <div id="content">
-                <section class="row">
+
+                <nav>
                     <p>This is placeholder content for the hero section</p>          
-                </section>
-                <section class="row">
+                </nav>
+
+                <section class="col">
                 <h2>Featured Articles</h2>
                 
                 <p>This is placeholder text for the Featured Articles section</p>
                 </section>
-                <section class="row">
+
+                <section class="col">
                 <h2>Latest News</h2>
                 
                 <p>This is placeholder text for the Latest News section</p>
                 </section>
+
             </div>
             <footer>
               Copyright &copy; 2017 MyAwesomeName.
